@@ -200,8 +200,8 @@
             "Exponencial - Exp(x)",
             "Seno - Sin(x)",
             "Cosseno - Cos(x)",
-            "Quadrática - Para x^2, use (Pow x,2)",
-            "Cúbica - Para x^3, use (Pow x,3)"});
+            "Quadrática - Para x^2, use Pow (x,2)",
+            "Cúbica - Para x^3, use Pow (x,3)"});
             this.comboBox1.Location = new System.Drawing.Point(61, 167);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(394, 36);
