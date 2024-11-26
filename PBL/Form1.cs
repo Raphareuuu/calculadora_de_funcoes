@@ -109,10 +109,8 @@ namespace PBL
                 seriesLinha.Points.Add(new DataPoint(pontosX[i], valoresFX[i]));
             }
 
-            // Adicionar as áreas dos trapézios
             foreach (var i in Enumerable.Range(0, pontosX.Count - 1))
             {
-                // Preenchimento dos trapézios
                 var polygon = new PolygonAnnotation
                 {
                     Fill = OxyColor.FromAColor(100, OxyColors.Orange),
@@ -126,7 +124,6 @@ namespace PBL
 
                 model.Annotations.Add(polygon);
 
-                // Adicionar as bordas dos trapézios
                 var seriesTrapezio = new LineSeries
                 {
                     Color = OxyColors.Black,
@@ -138,7 +135,7 @@ namespace PBL
                 seriesTrapezio.Points.Add(new DataPoint(pontosX[i + 1], valoresFX[i + 1]));
                 seriesTrapezio.Points.Add(new DataPoint(pontosX[i + 1], 0));
                 seriesTrapezio.Points.Add(new DataPoint(pontosX[i], 0));
-                seriesTrapezio.Points.Add(new DataPoint(pontosX[i], valoresFX[i])); // Fechar o contorno
+                seriesTrapezio.Points.Add(new DataPoint(pontosX[i], valoresFX[i]));
 
                 model.Series.Add(seriesTrapezio);
             }
