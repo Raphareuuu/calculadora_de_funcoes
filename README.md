@@ -1,6 +1,3 @@
 Desenvolvido como parte da disciplina Algoritmos I no curso de Engenharia da Computação, este projeto consistiu na criação de uma aplicação em C# para calcular a área sob curvas por meio do método dos Trapézios Repetidos.
 
--O sistema permite ao usuário inserir funções matemáticas (polinomiais, trigonométricas ou exponenciais), definir intervalos e subdivisões para o cálculo da integral.
--A aplicação interpreta os dados de entrada, realiza os cálculos numéricos e armazena os resultados em estruturas de vetores e matrizes.
--Inclui interface gráfica com visualização do gráfico da função utilizando o componente PictureBox do Windows Forms.
--Desenvolvido em grupo utilizando o Visual Studio, com foco em lógica de programação, análise de expressões matemáticas e construção de interfaces gráficas.
+O sistema permite ao usuário inserir funções matemáticas (polinomiais, trigonométricas ou exponenciais), definir intervalos e subdivisões para o cálculo da integral. A aplicação interpreta os dados de entrada, realiza os cálculos numéricos e armazena os resultados em estruturas de vetores e matrizes. Inclui interface gráfica com visualização do gráfico da função utilizando o componente PictureBox do Windows Forms. Desenvolvido em grupo utilizando o Visual Studio, com foco em lógica de programação, análise de expressões matemáticas e construção de interfaces gráficas.
